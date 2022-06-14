@@ -1,0 +1,102 @@
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Stile della pagina intera */
+html {
+    color: white;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Limito la grandezza massima delle immagini */
+img {
+    max-width: 100%;
+}
+
+/* Slogan */
+h2 {
+    color: #00dd00;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Pannello principale */
+.panel {
+    margin: 25px 18%;
+    padding: 5% 5%;
+    background-color: #00000050;
+    border-radius: 20px;
+}
+
+/* Logo */
+.title-space img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Bottoni */
+.button-space {
+    background-color: #00dd00;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Elenco monopattini */
+.scooter-list {
+    font-weight: lighter;
+}
+
+/* Pannello con le informazioni del monopattino */
+.scooter-info {
+    margin: 20px auto;
+}
+
+/* Punto elenco dei monopattini */
+ul {
+    list-style: square inside;
+}
+
+/* Punto elenco del luogo del monopattino */
+.scooter-position::marker {
+    content: '↦';
+}
+
+/* Nome monopattino */
+.scooter-name {
+    font-weight: normal;
+    font-size: larger;
+}
+
+/* Carica dello scooter */
+.scooter-charge {
+    height: 25px;
+    max-width: 60%;
+    border-radius: 5px;
+}
+
+/* Colore della carica del primo monopattino */
+.one .scooter-charge {
+    background-color: #f5b453;
+    width: 30%;
+}
+
+/* Colore della carica del secondo monopattino */
+.two .scooter-charge {
+    background-color: #1ec31e;
+}
+
+/* Colore della carica del terzo monopattino */
+.three .scooter-charge {
+    background-color: #be4141;
+    width: 13%;
+}
